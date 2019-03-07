@@ -22,6 +22,7 @@ import datetime
 import collections
 from eot_decoder import EOT_decode
 import zmq
+import csv
 
 # Socket to talk to server
 context = zmq.Context()
